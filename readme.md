@@ -12,8 +12,7 @@ This project estimates light direction in images by analyzing the relationship b
 ## Installation
 
 1. Clone this repository:
-   ```bash
+  
    git clone https://github.com/Luel-Abrha/light-direction-estimation-Deeplearning-project
 
-.git
-   cd light-direction-estimation
+
