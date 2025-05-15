@@ -1,6 +1,6 @@
 # Light Direction Estimation from Shadows
 
-This project estimates light direction in images by analyzing the relationship between objects and their shadows. It uses Detectron2 for instance segmentation and Depth Anything for depth estimation.
+This project estimates light direction in images by analyzing the relationship between objects and their shadows. It use single stage instance shadow detection with bidirectional learning(based on the implemntation of Detectron2) for instance segmentation and Depth Anything for depth estimation.
 
 ## Features
 
@@ -13,5 +13,7 @@ This project estimates light direction in images by analyzing the relationship b
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/light-direction-estimation.git
+   git clone https://github.com/Luel-Abrha/light-direction-estimation-Deeplearning-project
+
+.git
    cd light-direction-estimation
