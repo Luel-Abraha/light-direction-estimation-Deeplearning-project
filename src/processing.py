@@ -135,7 +135,7 @@ def calculate_light_direction(image_rgb, shadow_mask, object_mask, depth_process
     if not shadow_center or not object_center:
         return None
 
-    # Convert to 3D coordinates (without camera intrinsics)
+    
     def point_to_3d(point, depth_map):
         x, y = point
         z = depth_map[y, x]
