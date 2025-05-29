@@ -10,7 +10,7 @@ from .visualization import visualize_with_open3d
 from .utils import get_centroid, get_centroid_3d
 
 def estimate_light_direction(image_path, ssis_predictor, depth_processor, depth_model, output_dir=Path("output")):
-    """Process a single image with enhanced Open3D visualization"""
+    """Process a single image with enhanced Open3D visualization-I have used the first detected shadow object pair to draw it in the 3D object reconstruction"""
     os.makedirs(output_dir, exist_ok=True)
 
     image = cv2.imread(str(image_path))
