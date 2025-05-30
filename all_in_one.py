@@ -441,11 +441,7 @@ def estimate_light_direction(image_path, ssis_predictor, depth_processor, depth_
             output_dir
         )
 
-    # Also keep matplotlib plot for light directions
-   
-
     return light_directions
-
 
 def find_nearest_object_by_centroid(shadow_center, object_masks):
     """Find the object whose centroid is closest to the shadow centroid"""
