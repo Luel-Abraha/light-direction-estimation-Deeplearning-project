@@ -1,6 +1,6 @@
 # Light Direction Estimation from Shadows and depth
 
-This project estimates light direction in images by analyzing the relationship between objects and their shadows. It use single stage instance shadow detection with bidirectional learning(based on the implemntation of Detectron2) for instance segmentation and Depth Anything for depth estimation.
+This project estimates light direction in images by analyzing the relationship between objects and their shadows. It uses single stage instance shadow detection with bidirectional learning(based on the implemntation of Detectron2, https://github.com/stevewongv/SSIS) for instance segmentation and Depth Anything (https://github.com/LiheYoung/Depth-Anything) for depth estimation.
 
 ## Features
 
