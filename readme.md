@@ -9,6 +9,8 @@ This project estimates light direction in images by analyzing the relationship b
 - Generate 3D visualizations with Open3D
 - Export 3D models in PLY, OBJ, and GLB formats
 
+## requirement
+pip install -r requirement.txt
 ## Installation
 
 1. Clone this repository:
